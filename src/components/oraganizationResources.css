@@ -1,0 +1,100 @@
+.search_resource_category .MuiInputBase-root {
+  border-radius: 30px !important;
+  margin-top: 16px;
+}
+.personIcon:hover {
+  color: #09be9f;
+}
+.personBtn {
+  color: gray;
+  padding: 16px;
+}
+.personBtn:hover {
+  color: #09be9f;
+}
+.locationIcon:hover {
+  color: #09be9f;
+}
+.locationBtn {
+  color: gray;
+  padding: 16px;
+}
+.locationBtn:hover {
+  color: #09be9f;
+}
+.localOfferIcon:hover {
+  color: #09be9f;
+}
+.localOfferBtn {
+  color: gray;
+  padding: 16px;
+}
+.localOfferBtn:hover {
+  color: #09be9f;
+}
+
+/* ------------------------nested list-------------------------------------- */
+.nested-list-subheader {
+  width: 100%;
+  max-width: 360px;
+  background-color: transparent;
+}
+.listItemTextWrapper .MuiTypography-root {
+  font-weight: 700;
+}
+.suListItems {
+  padding-left: 4px;
+}
+.addCategoryBtn {
+  color: gray;
+}
+.addCategoryDiv {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 24px;
+  padding: 4px;
+}
+#modal-modal-description {
+  margin-top: 20px;
+}
+.MuiList-padding {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.MuiFormControl-root {
+  width: 100%;
+}
+.add_category_icon {
+  color: gray;
+}
+
+/*---------------------------------OraganizationResources----------------------------------- */
+
+.oraganization-resources-wrapper {
+  padding: 8px 0px;
+}
+
+.learning_and_development {
+  font-size: 26px;
+  font-weight: 500;
+}
+.sub_header_text_wrapper {
+  padding-top: 16px;
+}
+.childData_links-wrapper {
+  margin-top: 16px;
+}
+
+.childData_links {
+  color: rgb(43, 149, 177) !important;
+}
+
+.childData_links:hover {
+  text-decoration: none !important;
+}
