@@ -1,9 +1,9 @@
 import React from 'react'
-
+import MainForm from '../ValidationTest/MainForm';
 const Action = () => {
     return (
-        <div>
-            hiii
+        <div style={{display:'flex',justifyContent:'center'}}>
+            <MainForm/>
         </div>
     )
 }

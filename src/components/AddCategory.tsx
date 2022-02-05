@@ -13,7 +13,8 @@ import './oraganizationResources.css'
 import OrganizationResourcesDemo from "./OrganizationResourcesDemo";
 export default function AddCategory() {
 
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = React.useState(false); 
+    
     const handleOpen = () => setOpen(!open);
     const [data, setData] = React.useState(
         [

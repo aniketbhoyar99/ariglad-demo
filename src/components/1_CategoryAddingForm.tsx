@@ -14,6 +14,7 @@ const CategoryAddingForm = ({ setData, data, handleOpen }: DatavaluesProps) => {
 
     const useInputLabelHandler = (e: any) => {
         setuserInputMenuLabel(e.target.value);
+        
     }
 
     const handleInputChange = (e: any, index: number) => {

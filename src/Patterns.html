@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    
+      document.write("</br> ");
+      const leftTriangle = (n) => {
+        for (let i = 1; i <= n; i++) {
+          for (let j = 0; j < n - i; j++) {
+            document.write("&nbsp ");
+          }
+          for (let k = 0; k < i; k++) {
+            document.write("* ");
+          }
+          document.write("</br> ");
+        }
+      };
+      console.log(leftTriangle(6));
+
+      // //-------------***********---------
+
+      document.write("</br> ");
+      const reversLeftTriangle = (b) => {
+        for (let i = 0; i < 4; i++) {
+          for (let j = 0; j < b - i; j++) {
+            document.write("* ");
+          }
+          for (let k = 0; k < i; k++) {
+            document.write("&nbsp ");
+          }
+          document.write("</br>");
+        }
+      };
+      console.log(reversLeftTriangle(4));
+
+      //-------------***************-----------
+
+      document.write("</br> ");
+      const triangle = (d) => {
+        for (let i = 1; i < 4; i++) {
+          for (let j = 0; j < d - i; j++) {
+            document.write("&nbsp; ");
+          }
+          for (let k = 0; k < 2 * i - 1; k++) {
+            document.write("*");
+          }
+          document.write("</br>");
+        }
+      };
+      console.log(triangle(4));
+
+      
+      //_---------------------------
+
+ function createPascalTriangle(numRows) {
+        var pascalTriangle = [];
+
+        for (var i = 0; i < numRows; i++) {
+            pascalTriangle[i] = new Array(i + 1);
+
+            for (var j = 0; j < i + 1; j++) {
+                if (j === 0 || j === i) {
+                    pascalTriangle[i][j] = 1;
+                } else {
+                    pascalTriangle[i][j] = pascalTriangle[i - 1][j - 1] + pascalTriangle[i - 1][j];
+                }
+            }
+        }
+
+        // return pascalTriangle;
+        document.write(pascalTriangle)
+    }
+
+    console.log(createPascalTriangle(6));
+    //-------------------
+
+    </script>
+  </body>
+</html>
